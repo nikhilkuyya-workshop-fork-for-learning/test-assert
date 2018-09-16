@@ -1,0 +1,23 @@
+{
+  "name": "test-assert",
+  "version": "1.0.0",
+  "description": "learning the testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "coverage:node": "nyc npm run test",
+    "test": "tape ./test/*.js"
+  },
+  "author": "nikhil kuyya",
+  "license": "ISC",
+  "devDependencies": {
+    "acorn": "^6.0.1",
+    "browser-run": "^5.0.0",
+    "browserify": "^16.2.2",
+    "coverify": "^1.5.0",
+    "nyc": "^13.0.1",
+    "tape": "^4.9.1"
+  }
+}

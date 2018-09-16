@@ -1,3 +1,5 @@
 *.txt
-*.log
+logs
 browser-test
+node_modules
+.nyc_output
